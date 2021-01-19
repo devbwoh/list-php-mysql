@@ -22,7 +22,7 @@
 						$dbc = new PDO($dsn, 'root', 'mysql1234');
 						$dbc->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 						
-						$query = 'select * from gunpla';
+						$query = 'select * from gunpla order by mechanic_id';
 						//$query = 'select * from gunpla where grade = :grade';
 						$stmt = $dbc->prepare($query);
 						// $grade = 'SD';
