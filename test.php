@@ -1,4 +1,4 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>PHP 예제</title>
