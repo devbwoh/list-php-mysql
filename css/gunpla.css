@@ -26,6 +26,8 @@ th {
 }
 
 .boxart {
-	height: 60px;
+	width: 100px;
+	height: 75px;
 	border-radius: 15%;
+	object-fit: cover;
 }
